@@ -1,7 +1,9 @@
 all: compile link
 
 compile:
-	c++ -c main.cpp
+	c++ -c Amann_Prog2Orig.cpp
+	c++ -c Prog2Mod.cpp
 
 link:
-	c++ main.o -o main
+	c++ Prog2Mod.o -o Prog2Mod
+	c++ Amann_Prog2Orig.o -o Amann_Prog2Orig
